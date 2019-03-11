@@ -1,0 +1,31 @@
+https://github.com/Juan19Jesus08/prueba.git
+--------------------------------------------
+para crear una rama 
+git checkou -b nombre de la rama
+--------------------------------
+subir archivos de la rama 
+git checkout nombre de la rama
+git add .
+git status
+git commit -m "mensaje" 
+git push origin nombre de la rama
+
+---------------------------------------
+subir a master
+git checkout master
+git add .
+git merge nombre de la rama
+git push origin master
+---------------------
+para actualizarlo
+ 
+git checkout nombre de la rama
+git pull origin master
+
+--------------------------
+
+i
+"lko que vas a escribir"
+esc
+:wq
+enter
